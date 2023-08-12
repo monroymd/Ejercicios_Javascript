@@ -8,7 +8,39 @@
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <p id="parrafo">Pedro salió a dar un paseo en el barco de su padre. Aquel parecía un día espléndido para navegar.
+        María estaba sola mirando una película de terror en casa de su tía Susana cuando de pronto escuchó el ladrido de
+        Sultán, el rottweiler del vecino.</p>
+    <button id="cambiar">Cambiar</button>
+    <button id="volverAtras">Volver Atras</button>
+    <div class="container"></div>
+
+    <div class="container2">
+        <input id="tocar" type="button" value="Tocar">
+    </div>
+    <div>
+        <form action="" method="get" name="formulario">
+            <input type="number" name="diametro" id="valor" placeholder="Indique el diametro">
+        </form>
+    </div>
+    <div>
+        <button type="button" id="calcularRadio">Calcular Radio</button>
+        <button type="button" id="calcularArea">Calcular Area</button>
+        <button type="button" id="calcularPerimetro">Calcular Perimetro</button>
+
+    </div>
+    <div id="respuestaRadio"></div>
+    <div id="respuestaArea"></div>
+    <div id="respuestaPerimetro"></div>
+    <div>
+        <form id="form1" onsubmit="getFormValores()">
+            Nombre: <input type="text" name="nombre" value="David"><br>
+            Apellido: <input type="text" name="apellido" value="Beckham"><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div id="respuestaNombres"></div>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
